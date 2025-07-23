@@ -110,3 +110,53 @@
   line-height: 25px;
   font-weight: normal;
 }
+
+.two-columns-description {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+}
+
+.brief-description {
+  font-weight: normal;
+  line-height: 1.2;
+  font-size: 18px;
+  color: #2f80ed;
+  width: 175px;
+}
+
+.main-text-description {
+width: 80%;
+min-width: 784px;
+}
+
+.paragraph-description1 {
+  font-weight: normal;
+  line-height: 34px;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.paragraph-description2 {
+  font-weight: normal;
+  line-height: 34px;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.paragraph-description3 {
+  font-weight: normal;
+  line-height: 34px;
+  font-size: 24px;
+  color: black;
+}
+
+.span-accent-description {
+  font-weight: 600;
+}
