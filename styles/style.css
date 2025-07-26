@@ -232,7 +232,6 @@ display: block;
   display: flex;
   position: relative;
   padding-top: 100px;  
-  /* margin-top: 100px;  */
   width: 648px;
   margin-left: auto;
   margin-right: auto;
@@ -267,4 +266,78 @@ display: block;
   width: 867px;
   height: 637px;
   z-index: -100;
+}
+
+.kaufman {
+  overflow: hidden;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
+
+.table_theme_dark {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.table-cell_theme_dark {
+  width: 200px;
+  z-index: 5;
+}
+
+.kaufman-heading {
+  display: block;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+ 
+.kaufman-text {
+  display: block;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+  
+.kaufman-triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0px;
+  right: -210px; 
+  z-index: 1;
 }
